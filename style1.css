@@ -1,0 +1,32 @@
+body{
+   color:aliceblue;
+    background-image: url("image/f45.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content{
+  height: 100px;
+  width:200px;
+  font-size: 50px;
+  transition:all 1s linear;
+}
+
+.content:hover{
+  transition-duration: 3s;
+}
+
+
+  #link{
+    text-decoration: none;
+      color: bisque;
+     
+  }
+
+ 
+  

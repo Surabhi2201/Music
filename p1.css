@@ -1,0 +1,99 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: monospace;
+}
+
+body{
+    background:url("image/f45.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:100%;
+    width:100%;
+   
+}
+
+.content1{
+    display:flex;
+    justify-content: center;
+    align-items: center;  
+    height:100px;
+    width: 300px; 
+    color:white;
+    text-align:center;
+    font-size:25px;
+    margin-top:20px;
+}
+.songs{
+    height:700px;
+    width:800px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    
+}
+.type{
+    height:500px;
+    width:100px;
+    color:rgb(121, 119, 45);
+    font-size: xx-large;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:10px;
+    text-decoration: none;
+}
+
+#walk{
+    height:200px;
+    width:190px;
+    font-weight: 200;
+    background-color: burlywood;
+    background: url("image/w.jpeg");
+    background-size:auto;
+    background-repeat:no-repeat;
+    box-shadow: 0 0 10px rgb(234, 224, 19),
+    0 0 10px rgb(219, 206, 23);
+    color:rgb(252, 255, 255);
+    
+}
+
+#alone{
+    height:200px;
+    width:190px;
+    background: url("image/alone.jpeg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    color: white;
+    box-shadow: 0 0 10px white,
+    0 0 10px white;
+}
+
+
+
+#ATF{
+    height:200px;
+    width:190px;
+    background: url("image/atf.jpeg");
+    background-size: cover;
+    color: beige;
+    background-repeat:no-repeat;
+    box-shadow: 0 0 10px rgb(114, 198, 183),
+    0 0 10px rgb(46, 190, 151);
+}
+
+#alone:hover{
+    box-shadow: 0 0 10px white,
+    0 0 10px whitesmoke;
+    transition-duration: 1s;
+    border: 2px solid white;
+}
+
+#ATF:hover{
+    box-shadow: 0 0 10px white,
+    0 0 10px whitesmoke;
+    transition-duration: 1s;
+   
+}
+

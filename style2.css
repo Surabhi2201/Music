@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+  
+    
+}
+body{
+    color:white;
+    text-align:center;
+    background-color: black;
+}
+.piano{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upper-part{
+    width:100%;
+    font-size: 45px;
+    color:yellow;
+    font-family: monospace;
+}
+
+.piano-container{
+    height:500px;
+    width:600px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: darkgray;
+}
+
+.keys{
+    height:400px;
+    width:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-color:2px solid black;
+    background-color: rgb(0, 0, 0);
+    border-radius:4px;
+}
+
+.keys:hover{
+    border:2px solid yellow;
+    
+}
+
