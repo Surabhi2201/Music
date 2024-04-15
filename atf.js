@@ -17,16 +17,16 @@ function shuffleArray(array){
 }
 
 shuffle.addEventListener("click",()=>{
-    let songList=["tunes/Ve-kamleya.mp3",
-"tunes/My-Dil-Goes-Mmm.mp3",
-"tunes/Sher-Khul-Gaye.mp3",
-"tunes/Offo.mp3",
-"tunes/Teri-Baaton-Mein.mp3",
-"tunes/Ladki-Kyon.mp3",
-"tunes/One-Two-Three-Four.mp3",
-"tunes/Tere-Vaaste.mp3",
-"tunes/Akhiyan-Gulab.mp3",
-"tunes/Dus-Bahane-2.0.mp3"];
+    let songList=["tunes/Zindagi-Do-Pal-Ki.mp3",
+"tunes/Hum-Mar-Jayenge.mp3",
+"tunes/Sun-Raha.mp3",
+"tunes/Chal-Ghar-Chale.mp3",
+"tunes/Khuda-Jaane.mp3",
+"tunes/Bekhayali.mp3",
+"tunes/Barishon-Mein.mp3",
+"tunes/Saadi-Gali-Aaja.mp3",
+"tunes/Tujhe-Kitna-Chahne-Laga.mp3","tunes/Jaadui.mp3",
+"tunes/Dil-Kyun-Yeh-Mera.mp3","tunes/Tujhe-Bhula-Diya.mp3","tunes/Hawayein.mp3"];
   shuffleArray(songList);
   audio.src=songList[0];
   audio.load();
