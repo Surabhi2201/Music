@@ -2,7 +2,7 @@ let song=document.querySelectorAll(".container .songs");
 let audio=new Audio();
 let restart=document.querySelector("#restart");
 let pause=document.querySelector("#pause");
-
+let repeat=document.querySelector("#repeat");
 const playTune=(song)=>{
 
     audio.src=`tunes/${song}.mp3`;
@@ -36,3 +36,14 @@ document.addEventListener("keydown",()=>{
 
    
 }) 
+
+repeat.addEventListener("click",()=>{
+    if(audio.loop){
+        audio.loop=false;
+        repeat.textContent="LOOP";
+    }
+    else{
+        audio.loop=true;
+        repeat.textContent="UNLOOP";
+    }
+})
